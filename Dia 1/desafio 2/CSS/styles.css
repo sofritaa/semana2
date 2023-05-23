@@ -1,0 +1,219 @@
+.nav {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+}
+
+.nav .left {
+    display: flex;
+    align-items: center;
+}
+
+.nav .left h1 {
+    color: rgb(255, 255, 255);
+}
+
+.nav .left .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav .left .nav-links li {
+    margin: 25px;
+}
+
+.nav .left .nav-links .active {
+    font-weight: bold;
+}
+
+.nav .left .nav-links a {
+    font-style: normal;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav .btn {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.main_container {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 5%;    
+}
+
+.main_container .card_container {
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.main_container .card_container .aqua {
+    background-color: rgb(17, 240, 17);
+    height: 200px;
+}
+
+.main_container .card_container .card_info {
+    margin-top: -170px;
+    padding: 50px 80px;
+}
+
+.main_container .card_container .card_info .userCircle {
+    padding: 10px;
+    transform: scale(0.8);
+    border-radius: 50%;
+    border: 10px solid rgb(0, 0, 0);
+
+}
+.main_container .card_container .card_info h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.main_container .card_container .card_info .location {
+    display: flex;
+    align-items: center;
+}
+.gear , .map{
+    width: 15px;
+}
+
+.main_container .card_container .card_info a {
+    text-emphasis: none;
+    display: flex;
+    align-items: center;
+}
+
+.main_container .education {
+    border: 5px solid rgba(253, 5, 5, 0.5);
+    margin-bottom: 20px;
+}
+
+.main_container .education header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 25px 0;
+    background-color: rgb(231, 117, 117);
+    color: white;
+}
+
+.main_container .education .educationEntry {
+    padding: 20px;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.side_nav {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 25px 0 0;
+}
+
+.side_nav .requests {
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.side_nav .requests header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 25px 0;
+    background-color: black;
+    color: white;
+}
+
+.side_nav .requests .friendCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px 12px;
+}
+
+.side_nav .requests .friendCard .friendAvatar {
+    display: flex;
+    align-items: center;
+}
+
+.side_nav .requests .friendCard .friendAvatar img {
+    transform: scale(0.6);
+    padding: 5px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.side_nav .requests .friendCard .friendAvatar h3 {
+    font-size: 1.5em;
+}
+
+.side_nav .requests .friendCard .acceptDecline img {
+    height: 42px;
+    width: 42px;
+    margin: 10px;
+}
+
+.side_nav .connections {
+    border: 5px solid rgba(255, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.side_nav .connections header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.side_nav .connections .friendCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side_nav .connections .friendCard .friendAvatar {
+    display: flex;
+    align-items: center;
+}
+
+.side_nav .connections .friendCard .friendAvatar img {
+    transform: scale(0.6);
+    padding: 5px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 0, 0);
+}
+.side_nav .connections .viewMore {
+    padding: 10px;
+    border: 3px solid rgba(199, 62, 62, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.display {
+    display: flex;
+    padding-top: 115px;
+    justify-content: center;
+}
