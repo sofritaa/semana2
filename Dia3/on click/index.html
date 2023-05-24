@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Font family Balsamiq Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-elements">
+            <li><h1 class="title">Dojonary</h1></li>
+            <li><input type="search" placeholder="search"></li>
+            <li><button onclick="changeName(this)" class="btn color-1">login</button></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <div class="col-1">
+            <div class="card">
+                <div class="like-side">
+                    <ul class="like-elements">
+                        <li><h2>Ninja</h2></li>
+                        <li class="cursiva">noun</li>
+                        <li>plural: <span class="cursiva">ninjas</span></li>
+                        <li><button onclick="alert('Ninja has liked')" class="btn color-2">13 likes</button></li>
+                    </ul>
+                </div>
+                <div class="text-side"><p>A partitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p></div>
+            </div>
+            <div class="card">
+                <div class="like-side"></div>
+                <ul class="like-elements">
+                    <li><h2>Ninja</h2></li>
+                    <li class="cursiva">noun</li>
+                    <li>plural: <span class="cursiva">ninjas</span></li>
+                    <li><button onclick="alert('Ninja has liked')" class="btn color-2">13 likes</button></li>
+                </ul>
+                <div class="text-side"><p>A <a href="#">programmer</a> who breaks problems with <a href="#">zen</a>-like focus</p></div>
+        </div>
+            </div> 
+        <div class="col-2">
+            <div class="adds">
+                <div class="add text">Dojonary is defined by YOU</div>
+                <div class="add-button"><button onclick="eliminar(this.parentElement)" class="btn color-3">add Definition</button></div>            </div>
+        </div>
+    </main>
+    <!-- JavaScript -->
+    <script src="/JS/index.js"></script>
+</body>
+</html>
