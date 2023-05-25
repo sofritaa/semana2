@@ -1,0 +1,29 @@
+main {
+    padding: 20px 50px;
+}
+.card{
+    background-color: rgb(255, 71, 136);
+    border: 1px solid ;
+
+}.row{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+}
+button {
+    height: 40px;
+    width: 50px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    margin-left: 15px; ;
+}
+.title {
+    font-size: 30px;
+}
+.likes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+}
