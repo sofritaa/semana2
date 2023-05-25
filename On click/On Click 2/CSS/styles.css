@@ -1,0 +1,85 @@
+body {
+    padding: 0 240px;
+    margin: 0;
+}
+
+main {
+    padding: 0;
+}
+
+header {
+    background-color: rgb(21, 255, 0);
+    color: white;
+    display: flex;
+    padding-left: 32px;
+}
+
+header > h1 {
+    margin: 0;
+    align-self: center;
+}
+
+.pageTitle {
+    font-size: 48px;
+    margin: 16px auto;
+}
+
+.userCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 0;
+    gap: 48px;
+    width: 168px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.userCard > p {
+    margin: 0;
+    font-size: 30px;
+}
+
+.userCard > img {
+    border-radius: 50%;
+    height: 130px;
+    border: 4px solid rgb(255, 0, 0);
+}
+
+.card {
+    border: 1px solid rgb(255, 0, 0);
+    padding: 0 48px;
+}
+
+.card > .row {
+    justify-content: space-between;
+}
+
+.likes > button {
+    height: 48px;
+    width: 100px;
+    box-shadow: 4px 4px 4px rgb(255, 0, 0);
+    margin-left: 48px;
+}
+
+.cardTitle {
+    font-size: 48px;
+}
+
+.likes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    gap: 48px;
+}
+
+.col2 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
